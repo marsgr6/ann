@@ -8,3 +8,5 @@ Periodic Neural Activity Induced by Network Complexity
 ## Requirements
 
 Python 3.5+
+
+## Quick Start
