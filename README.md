@@ -1,4 +1,6 @@
 # Periodic Neural Activity
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
+
 
 Periodic Neural Activity Induced by Network Complexity
 
