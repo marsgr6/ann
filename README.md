@@ -13,8 +13,8 @@ Python 3.5+
 
 ```
 import matplotlib.pyplot as plt
-from an_library import attractor_network as AA
-from an_library import pattern as p
+from ann import attractor_network as AA
+from ann import pattern as p
 
 N = 1024 # Number of neurons
 K = 4 # Degree
