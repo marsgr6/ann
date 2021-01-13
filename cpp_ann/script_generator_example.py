@@ -24,12 +24,18 @@
 p = 150  # patterns
 K = 240
 
-nns = [1, 10, 15]  # 10 and 15 ensemble modules
-topos = ['r', 'c']  # r: ring topology
-ws = [0.0, 0.5, 1]  #
+nns = [10, 15]  # 1, 10 and 15 ensemble modules
+topos = ['r', 'c']  # r: ring topology, c: cross topology
+ws = [0.5, 1]  # omega: random connection ratio
 
 advance = 0
 
+# Total number of times that the cpp program will be executed 
+# according to the combination of paramters
+# p // nn: pattern subsetting assigned to modules
+# len(topos): number of topologies to check
+# len(ws): number of values of random connection ratios to check
+# Above combination is checked for different values of modules: nns
 runs = sum([p // nn * len(topos) * len(ws) for nn in nns])
 
 path = "patterns/"
