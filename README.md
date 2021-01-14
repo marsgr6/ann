@@ -5,6 +5,7 @@
 
 ## Overview
 
+Implements an Attractor Neural Network.
 
 ## Requirements
 
