@@ -3,8 +3,6 @@
 [![GitHub license](https://img.shields.io/github/license/Naereen/StrapDown.js.svg)](https://github.com/Naereen/StrapDown.js/blob/master/LICENSE)
 
 
-Periodic Neural Activity Induced by Network Complexity
-
 ## Overview
 
 
@@ -13,6 +11,9 @@ Periodic Neural Activity Induced by Network Complexity
 Python 3.5+
 
 ## Quick Start
+
+Code below replicates the base result of 
+the paper Periodic Neural Activity Induced by Network Complexity, https://journals.aps.org/pre/abstract/10.1103/PhysRevE.74.017102. 
 
 ```
 import matplotlib.pyplot as plt
