@@ -6,8 +6,10 @@
 
 Implements an Attractor Neural Network in C++.
 
-Cite the following: 
-Ensemble of Diluted Attractor Networks withOptimized Topology for Fingerprint Retrieval, 
+For technical information about the algorithm, you can refer to:
+
+M. González-Rodríguez et al.,Ensemble of diluted attractor networks with optimized topology for fingerprint retrieval, Neurocomputing, vol. 442, no. 28, pp. 269-280, issn. 0925-2312, 2021, DOI: https://doi.org/10.1016/j.neucom.2021.02.033.
+
 *under review*. 
 
 ## Requirements
